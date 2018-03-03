@@ -4,7 +4,7 @@
 #### Instalace Gitu
 * Stažení Gitu a jeho instalace na adrese: [https://git-scm.com/downloads](https://git-scm.com/downloads)
 * Po instalaci si otevřete příkazový řádek a ověřte instalaci pomocí `git --version`
-  ![Git version command](/images/git-version.png)
+  ![Git version command](https://raw.githubusercontent.com/Bulva/kartograficka-vizualizace/master/02-Git-a-GitHub/images/git-version.png)
     * Pokud git nefunguje je možné, že není nastavena cesta v envinronment variables
     
 #### Použití Gitu
