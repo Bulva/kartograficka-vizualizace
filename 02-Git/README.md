@@ -1,5 +1,6 @@
 ## Git
-[Co je to Git - článek na itnetwork](https://www.itnetwork.cz/software/git/git-tutorial-historie-a-principy/)
+* [Co je to Git - článek na itnetwork](https://www.itnetwork.cz/software/git/git-tutorial-historie-a-principy/)
+* [(Prezentace na slides.com)](http://slides.com/bulva/git-a-github)
 
 #### Instalace Gitu
 * Stažení Gitu a jeho instalace na adrese: [https://git-scm.com/downloads](https://git-scm.com/downloads)
