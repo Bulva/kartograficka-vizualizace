@@ -25,7 +25,7 @@ Obrázek ve formátu SVG (obvykle koncovka .svg) lze do HTML dokumentu vložit b
 
 #### Systém souřadnic
 Počátkem souřadnic SVG canvasu je levý horní roh. 
-![Git version command](https://raw.githubusercontent.com/Bulva/kartograficka-vizualizace/master/03-Základy-SVG/images/InitialCoords.png)
+![SVG Coordinate system](https://raw.githubusercontent.com/Bulva/kartograficka-vizualizace/master/03-Z%C3%A1klady-SVG/images/InitialCoords.png)
 > Zkuste najít ve specifikaci jaký je rozdíl mezi canvasem a viewportem
 
 > Co uděláme s jiným souřadnicovým systémem?
