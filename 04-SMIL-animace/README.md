@@ -4,7 +4,7 @@
 ### SMIL(Synchronized Multimedia Integration Language)
 SMIL je standard, který definuje tagy a elementy jejíchž pomocí lze animovat SVG. Lze také přidat uživatelské akce (mouseclick, mouseover apod.). Pomocí SMILu lze měnit téměř všechny atributy obsažené v objektech SVG.
 
-[Specifiakce SMIL Animation](https://www.w3.org/TR/2001/REC-smil-animation-20010904/#Introduction)
+[Specifikace SMIL Animation](https://www.w3.org/TR/2001/REC-smil-animation-20010904/#Introduction)
 
 ```xml
 <svg width="12cm" height="4cm" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -79,9 +79,9 @@ Stejně jako v případě eventů (mouseout, mouseover, click) v Javascriptu mů
 </svg>
 ```
 
-### Zdroje
-[SVG-SMIL animation tutorial](http://edutechwiki.unige.ch/en/SVG-SMIL_animation_tutorial)
-[Interactive SVG-SMIL animation tutorial](http://edutechwiki.unige.ch/en/Interactive_SVG-SMIL_animation_tutorial)
-[SMIL Animation](https://www.w3.org/TR/smil-animation/)
-[Mozilla Animation with SMIL](https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL)
-[Rotating elements](http://www.petercollingridge.co.uk/blog/svg-animation-rotating-elements)
+#### Zdroje
+* [SVG-SMIL animation tutorial](http://edutechwiki.unige.ch/en/SVG-SMIL_animation_tutorial)
+* [Interactive SVG-SMIL animation tutorial](http://edutechwiki.unige.ch/en/Interactive_SVG-SMIL_animation_tutorial)
+* [SMIL Animation](https://www.w3.org/TR/smil-animation/)
+* [Mozilla Animation with SMIL](https://developer.mozilla.org/en-US/docs/Web/SVG/SVG_animation_with_SMIL)
+* [Rotating elements](http://www.petercollingridge.co.uk/blog/svg-animation-rotating-elements)
