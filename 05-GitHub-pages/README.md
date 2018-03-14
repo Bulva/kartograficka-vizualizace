@@ -12,6 +12,9 @@ Jednoduchý hosting přímo z GitHubu. Je napojený přímo na repozitář na va
 * Vytvořte uvnitř repozitáře soubor **index.html** a vložte do něj obsah (třeba animaci)
 * Nakonec pusťte tyto příkazy
   ``` bash
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+  
   git add --all
   git commit -m "Initial commit"
   git push -u origin master
