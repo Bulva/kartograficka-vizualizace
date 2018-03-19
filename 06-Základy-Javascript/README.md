@@ -14,34 +14,34 @@ Dnes přeskočíme prezentaci a přejdeme přímo k vytvoření jednoduché apli
 1. Stránku si ještě na efekt trochu upravíme. Doplníme stylovaní v CSS a nějaké divy. Stylování a HTML soubor najdete v repozitáři `main.css` a `index.html`.
 1. Vytvoříme si soubor [map.js]() kde budeme pracovat s SVG a jeho elementy.
 
-###Přehled základních funkcí
-#####getElementById()
+### Přehled základních funkcí
+#### getElementById()
 Selektuje objekty z DOMu pomocí ID
 ```javascript
 // vybere jakýkoliv objekt obsažený v HTML dokumentu s ID "svg-kraje"
 document.getElementById("svg-kraje");
 ```
 
-#####getSVGDocument()
+#### getSVGDocument()
 Načte obsah SVG
 ```javascript
 object.getSVGDocument();
 ```
 
-#####getElementsByTagName()
+#### getElementsByTagName()
 Selektuje objekty podle názvu tagu
 ```javascript
 // vybere všechny objekty s tagem "path" - všechny cesty v SVG
 object.getElementsByTagName("path");
 ```
 
-#####addEventListener()
+#### addEventListener()
 Přidá event listener k danému objektu
 ```javascript
 object.addEventListener("mouseover", function);
 ```
 
-#####setTimeout()
+#### setTimeout()
 Provede nějakou operaci po určité době
 ```javascript
 setTimeout(function () {
