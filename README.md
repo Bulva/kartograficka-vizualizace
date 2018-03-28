@@ -5,4 +5,7 @@ Každá kapitola obsahuje odkaz na odpovídající složku v tomto repozitáři 
 1. [Základy SVG](https://github.com/Bulva/kartograficka-vizualizace/tree/master/03-Z%C3%A1klady-SVG) [(prezentace)](http://slides.com/bulva/zaklady-svg)
 1. [SMIL](https://github.com/Bulva/kartograficka-vizualizace/tree/master/04-SMIL-animace) [(prezentace)](http://slides.com/bulva/smil)
 1. [GitHub pages](https://github.com/Bulva/kartograficka-vizualizace/tree/master/05-GitHub-pages)
-1. [Základy Javascriptu pro SVG](https://github.com/Bulva/kartograficka-vizualizace/tree/master/06-Z%C3%A1klady-Javascript) 
+1. [Základy Javascriptu pro SVG](https://github.com/Bulva/kartograficka-vizualizace/tree/master/06-Z%C3%A1klady-Javascript)
+1. [jQuery](https://github.com/Bulva/kartograficka-vizualizace/tree/master/07-jQuery)
+1. [CSS animace](https://github.com/Bulva/kartograficka-vizualizace/tree/master/08-CSS-animace)
+1. [Javascript knihovny pro animaci](https://github.com/Bulva/kartograficka-vizualizace/tree/master/09-Javascript-knihovny)
