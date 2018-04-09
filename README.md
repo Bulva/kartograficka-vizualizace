@@ -9,3 +9,4 @@ Každá kapitola obsahuje odkaz na odpovídající složku v tomto repozitáři 
 1. [jQuery](https://github.com/Bulva/kartograficka-vizualizace/tree/master/07-jQuery)
 1. [CSS animace](https://github.com/Bulva/kartograficka-vizualizace/tree/master/08-CSS-animace)
 1. [Javascript knihovny pro animaci](https://github.com/Bulva/kartograficka-vizualizace/tree/master/09-Javascript-knihovny)
+1. [Let the game begin!](https://github.com/Bulva/kartograficka-vizualizace/tree/master/10-Let-the-game-begin!)
