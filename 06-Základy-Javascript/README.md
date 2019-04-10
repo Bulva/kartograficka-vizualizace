@@ -5,7 +5,7 @@ Je dobré se naučit hned na začátku psát co nejčištější kód a dodržov
 
 Důležitou věcí je také komentování kódu. Pro jednotný vzhled je dobré vybrat také způsob dokumentace. Javascript používá [JSDoc](http://usejsdoc.org/). Ukázku komentování funkcí máte v souboru **map.js**. Zbytek si vysvětlíme na hodině.
 
-Obvykle má každá dobrý IDE editor možnost kód nějak automaticky zformátovat. V případě WebStormu se tato možnost nachází v nabídce *Code -> Reformat Code (Ctrl+Alt+L)*
+Obvykle má každý dobrý IDE editor možnost kód nějak automaticky zformátovat. V případě WebStormu se tato možnost nachází v nabídce *Code -> Reformat Code (Ctrl+Alt+L)*
 #### Úkoly
 Dnes přeskočíme prezentaci a přejdeme přímo k vytvoření jednoduché aplikace, která bude zobrazovat kraje ČR s počtem obyvatel v jednotlivých krajích pro různé roky.
 1. Ve složce `data` je geojson, který obsahuje kraje ČR včetně popisných hodnot z ArcČR, verze 3.2. Pro export včetně atributů můžete použít [můj plugin](https://github.com/Bulva/SvgAttributes) (Jen pro verzi QGISu 2.x). Stáhněte si .zip a rozbalte jej do `C:Users/uzivatel/.qgis2/python/plugins`. Poté jej zaškrněte v nainstalovaných pluginech v QGISu. Další možností je použití knihovny [kartograph.py](http://kartograph.org/docs/kartograph.py/). Tato knihovna je neudržovaná a bude fungovat pouze pro Python 2.7. Poslední možností je ruční připsání hodnot do SVG, popřípadě připsání pouze IDček pomocí, kterých můžete spárovat objekty SVG s daty.
