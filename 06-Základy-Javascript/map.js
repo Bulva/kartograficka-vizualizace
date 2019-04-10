@@ -5,13 +5,15 @@ let year1991 = document.getElementById("year-1991");
 let year2001 = document.getElementById("year-2001");
 let year2011 = document.getElementById("year-2011");
 
-let map = document.getElementById("svg-kraje");
+let map = document.getElementById("svg-kraje").firstElementChild;
 console.log(map);
 let SVGDocument = map.getSVGDocument();
-let paths = SVGDocument.getElementsByTagName("path");
+console.log(map);
+let paths = document.getElementsByTagName("path");
+console.log(paths);
 
 window.onload = function () {
-    for (i = 0; i < paths.length; i++) {
+    for (let i = 0; i < paths.length; i++) {
         paths[i].style.stroke = "#4d88ff";
         paths[i].style.opacity = opacity;
         paths[i].style.fill = "#4d88ff";
@@ -57,7 +59,7 @@ function decreaseOpacity(event) {
 }
 
 // add listeners to paths
-for (i = 0; i < paths.length; i++) {
+for (let i = 0; i < paths.length; i++) {
     paths[i].addEventListener("mouseover", increaseOpacity);
     paths[i].addEventListener("mouseout", decreaseOpacity);
 }
