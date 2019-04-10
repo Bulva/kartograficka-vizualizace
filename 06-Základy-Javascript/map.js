@@ -5,12 +5,12 @@ let year1991 = document.getElementById("year-1991");
 let year2001 = document.getElementById("year-2001");
 let year2011 = document.getElementById("year-2011");
 
-let map = document.getElementById("svg-kraje").firstElementChild;
-console.log(map);
-let SVGDocument = map.getSVGDocument();
-console.log(map);
+//let map = document.getElementById("svg-kraje");
+
+//let SVGDocument = map.getSVGDocument();
+//let paths = SVGDocument.getElementsByTagName("path");
+//let svg = document.getElementsByTagName("svg");
 let paths = document.getElementsByTagName("path");
-console.log(paths);
 
 window.onload = function () {
     for (let i = 0; i < paths.length; i++) {
@@ -39,9 +39,9 @@ function changeOpacity(object) {
  * @param event
  */
 function increaseOpacity(event) {
-    year1991.innerText = Math.trunc(event.target.getAttribute("POCET_OB_91"));
-    year2001.innerText = Math.trunc(event.target.getAttribute("POCET_OB_01"));
-    year2011.innerText = Math.trunc(event.target.getAttribute("POCET_OB_11"));
+    year1991.innerText = Math.trunc(event.target.getAttribute("pocet_ob_91"));
+    year2001.innerText = Math.trunc(event.target.getAttribute("pocet_ob_01"));
+    year2011.innerText = Math.trunc(event.target.getAttribute("pocet_ob_11"));
     changeOpacity(event.target);
 }
 
