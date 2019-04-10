@@ -5,20 +5,23 @@
 
     <title>Interaktivní mapa krajů ČR</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <div id="content">
-        <div id="map">
-            <object id="svg-kraje" data="./images/kraje.svg" type="image/svg+xml"></object>
-        </div>
-        <div id="information">
-            <h4>Počty obyvatel v jednotlivých letech:</h4>
-            <p class="year-label">Rok 1991</p>
+    <div id="container">
+        <div class="row">
+            <div id="map" class="col-sm-12">
+                <object id="svg-kraje" data="./images/kraje.svg" type="image/svg+xml"></object>
+            </div>
+            <div id="information" class="col-sm-4">
+                <h5>Počty obyvatel v jednotlivých letech:</h5>
+                <p class="year-label">Rok 1991</p>
                 <p id="year-1991" class="year">N/A</p>
-            <p class="year-label">Rok 2001</p>
+                <p class="year-label">Rok 2001</p>
                 <p id="year-2001" class="year">N/A</p>
-            <p class="year-label">Rok 2011</p>
+                <p class="year-label">Rok 2011</p>
                 <p id="year-2011" class="year">N/A</p>
+            </div>
         </div>
     </div>
     <script src="map.js"></script>

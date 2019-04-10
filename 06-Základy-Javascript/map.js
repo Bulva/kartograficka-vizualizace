@@ -6,6 +6,7 @@ let year2001 = document.getElementById("year-2001");
 let year2011 = document.getElementById("year-2011");
 
 let map = document.getElementById("svg-kraje");
+console.log(map);
 let SVGDocument = map.getSVGDocument();
 let paths = SVGDocument.getElementsByTagName("path");
 
