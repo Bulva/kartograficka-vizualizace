@@ -1,67 +1,50 @@
-let opacity = .3;
+let opacity = .4;
 let timeout;
+
+let paths = document.getElementsByTagName("path");
 
 let year1991 = document.getElementById("year-1991");
 let year2001 = document.getElementById("year-2001");
 let year2011 = document.getElementById("year-2011");
 
-//let map = document.getElementById("svg-kraje");
-
-//let SVGDocument = map.getSVGDocument();
-//let paths = SVGDocument.getElementsByTagName("path");
-//let svg = document.getElementsByTagName("svg");
-let paths = document.getElementsByTagName("path");
-
-window.onload = function () {
-    for (let i = 0; i < paths.length; i++) {
-        paths[i].style.stroke = "#4d88ff";
-        paths[i].style.opacity = opacity;
-        paths[i].style.fill = "#4d88ff";
-    }
-};
-
-/**
- * Change opacity for specific object
- * @param {event.target} object - object of event
- */
 function changeOpacity(object) {
     if (opacity < 1) {
         opacity += .05;
-        timeout = setTimeout(function () {
-            changeOpacity(object)
+        timeout = setTimeout(function() {
+            changeOpacity(object);
         }, 50);
     }
     object.style.opacity = opacity;
 }
 
-/**
- * Increase opacity if event was triggered
- * @param event
- */
-function increaseOpacity(event) {
-    year1991.innerText = Math.trunc(event.target.getAttribute("pocet_ob_91"));
-    year2001.innerText = Math.trunc(event.target.getAttribute("pocet_ob_01"));
-    year2011.innerText = Math.trunc(event.target.getAttribute("pocet_ob_11"));
-    changeOpacity(event.target);
-}
-
-/**
- * Decrease opacity if event was triggered
- * @param event
- */
 function decreaseOpacity(event) {
     year1991.innerText = "N/A";
     year2001.innerText = "N/A";
     year2011.innerText = "N/A";
+
     clearTimeout(timeout);
-    event.target.style.opacity = ".3";
-    opacity = .3;
+    event.target.style.opacity = .4;
+    opacity = .4;
 }
 
-// add listeners to paths
-for (let i = 0; i < paths.length; i++) {
-    paths[i].addEventListener("mouseover", increaseOpacity);
-    paths[i].addEventListener("mouseout", decreaseOpacity);
+function increaseOpacity(event) {
+    year1991.innerText = Math.trunc(event.target.getAttribute("pocet_ob_91"));
+    year2001.innerText = Math.trunc(event.target.getAttribute("pocet_ob_01"));
+    year2011.innerText = Math.trunc(event.target.getAttribute("pocet_ob_11"));
+
+    changeOpacity(event.target);
 }
 
+window.onload = function() {
+    for (let path of paths) {
+        path.style.stroke = "#4d88ff";
+        path.style.opacity = opacity;
+        path.style.fill = "#4d88ff";
 
+
+        path.addEventListener("mouseover", increaseOpacity);
+        path.addEventListener("mouseout", decreaseOpacity);
+    }
+};
+
+console.log(paths);
