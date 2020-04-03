@@ -10,5 +10,6 @@ Mnohé z těchto knihoven však nevznikly přímo pro animaci kartografických p
 1. **[Velocity.js](http://velocityjs.org/)**
 1. **[Bonsai.js](https://bonsaijs.org/)**
 1. **[SVG.js](http://svgjs.com/)**
+1. **[Anime.js](https://animejs.com/)**
 1. **[Lazy Line Painter](http://lazylinepainter.info/)** - podobný jako Vivus.js
 1. **[Kute.js](http://thednp.github.io/kute.js/index.html)** - hlavně morphing
