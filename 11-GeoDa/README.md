@@ -1,6 +1,6 @@
 #### Zadání cvičení
-* Vyberte si nějakou libovolnou datovou sadu (prostorový formát + informace obsažené v něm)
-  * Můžete využít data z Eurostatu, OSN nebo datové sady poskytované GeoDou jako ukázky (kromě datové sady použití v dokumentaci - NYC)
+* Vyberte si nějakou libovolnou datovou sadu (prostorový formát + informace obsažené v něm). Můžete si sadu i vytvořit spojením prostorových a popisných dat.
+  * Můžete využít data např. z Eurostatu, OSN nebo datové sady poskytované GeoDou (kromě datové sady použití v dokumentaci - NYC)
 * Tuto datovou sadu nahrajte do programu [GeoDa](http://geodacenter.github.io/)
 * Na těchto datech provědte exploratorní prostorovou analýzu, přitom použijte tyto nástroje
   * histogram, na kterém budete zároveň demonstrovat brushing a linking
@@ -64,7 +64,7 @@ Analýza hlavních komponent se používá především pro redukci dimenzionali
 
 PCA se nachází v GeoDě v nabídce *Clusters -> PCA*. Na vstupu je nutné vybrat více proměnných (z těchto proměnných budeme chtít vytvořit hlavní komponenty, které nám řeknou, která data jsou "nadbytečná"). 
 
-Jak funguje PCA ja vidět například [zde](http://setosa.io/ev/principal-component-analysis/). Cílem je rotovat osu ve směru nejvyšší variability dat, protože chceme, aby data obsahovaly co nejvíce původní informace, ale za co největší úspory dimenzionality.
+Jak funguje PCA je vidět například [zde](http://setosa.io/ev/principal-component-analysis/). Cílem je rotovat osu ve směru nejvyšší variability dat, protože chceme, aby data obsahovaly co nejvíce původní informace, ale za co největší úsporu dimenzionality (počtu proměnných).
 
 ![Rotace osy při PCA](http://4.bp.blogspot.com/-pleL0HvLUgU/UYqpNFdd8EI/AAAAAAAAAHA/uf11u9lcq5g/s1600/PCA_1.png)
 
@@ -79,7 +79,7 @@ Kaiser criterion lze použít pro interpretaci kolik hlavních komponent vybrat.
 
 Další kritérium funguje velice podobně, ale zohledňuje počet hlavních komponent, které vysvětlují 95 % variability v datech. V našem případě kumulativní hodnoty variance 0.614905, 0.897039 a 0.943005.
 
-Charakteristika Squared correlations říká kolik variability původní proměnné je vysvětlevné v dané hlavní komponentě. Čím vyšší hodnota, tím více variability původní proměnné (v řádku) vysvetluje daná hlavní komponenta (ve sloupci). Hodnoty v řádku by měly v součtu dát 1 (100 %). V našem případě je vidět, že vzhledem k tomu, že jednotlivé proměnné jsou pouze různé roky dvou charakteristik jsou velké části těchto hodnot vysvětleny v prvních dvou komponentách. 
+Charakteristika Squared correlations říká kolik variability původní proměnné je vysvětlované v dané hlavní komponentě. Čím vyšší hodnota, tím více variability původní proměnné (v řádku) vysvětluje daná hlavní komponenta (ve sloupci). Hodnoty v řádku by měly v součtu dát 1 (100 %). V našem případě je vidět, že vzhledem k tomu, že jednotlivé proměnné jsou pouze různé roky dvou charakteristik jsou velké části těchto hodnot vysvětleny v prvních dvou komponentách. 
 
 Výstup je možné uložit kliknutím na tlačítko *Save*. Defaultně nabízí okno takový počet komponent, který vyjadřuje 95 % variability dat. 
 
