@@ -1,8 +1,3 @@
-#### Úkoly
-1. Vytvořte v textovém editoru čtverec (modrý obrys, červená výplň) a kruh (libovolné barvy) a kolem těchto objektů vytvořte pomocí elementu path pěticípou hvězdu.
-2. Nahrajte si shapefily ze složky data do QGISu a vyexportujte je pomocí SimpleSvg pluginu. Následně se jednotlivé elementy pokuste upravit v XML editoru Inkscapu.
-3. Použijte dokumentaci kartograph.py a pokuste se vytvořit ze shapefilu SVG včetně atributů - použijeme jej na příští hodině
-
 ### SVG (Scalable Vector Graphics)
 Jedná se o vektorový formát založený na XML gramatice. Díky způsobu zápisu vektorových objektů ve formátu XML je formát lidsky čitelný a kompatibilní s většinou dalších standardů, které vydává W3C (HTML, CSS, XLS...). Stejně jako HTML využivá SVG DOM, který umožňuje hierarchicky přistupovat k jednotlivým objektům nebo jejich atributům a měnit tak vlastnosti objektů. Toho lze využít především pro animaci a eventy navázané na určitého části SVG obrázku. Animace může být jak deklarativní (pomocí parametru `animate`) nebo naskriptovaná (např. pomocí JavaScriptu)
 
@@ -68,7 +63,7 @@ _L (lineto) - přesune kurzor na určitou pozici, kreslí linii_
 
 _z nebo Z (closepath) - přesune kurzor na počáteční pozici cesty, uzavře objekt_
 
-Velká písmena (např. M a L) obvykle znamenají absolutní pozici (od levého horního rohu). Málá písmena pak znamenají pozici relativní (od pozice, kde se nachází kurzor)
+Velká písmena (např. M a L) znamenají absolutní pozici (od levého horního rohu). Málá písmena pak znamenají pozici relativní (od pozice, kde se nachází kurzor)
 
 Další příklady pro jiné elementy ve [specifikaci](https://www.w3.org/TR/SVG11/)
 

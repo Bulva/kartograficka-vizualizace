@@ -1,6 +1,3 @@
-#### Úkoly
-1. Udělejte jakoukoliv jednoduchou animaci pomocí SMILu a vypublikujte ji pomocí [GitHub pages](https://pages.github.com/).
-
 ### SMIL(Synchronized Multimedia Integration Language)
 SMIL je standard, který definuje tagy a elementy jejíchž pomocí lze animovat SVG. Lze také přidat uživatelské akce (mouseclick, mouseover apod.). Pomocí SMILu lze měnit téměř všechny atributy obsažené v objektech SVG.
 
